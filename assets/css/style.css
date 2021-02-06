@@ -1,3 +1,52 @@
 body {
+    background-image: linear-gradient(to bottom right, #a8fabb, #52e6ee);
+}
+
+.navbar,
+.footer {
+    font-family: 'Gruppo', cursive;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    background-color: rgba(255, 255, 255, 0.288);
+}
+
+.jumbotron {
+    margin: 15px;
+}
+
+#customJumbo {
+    background-color: rgba(255, 255, 255, 0.288);
+    margin: 0px 0px 25px 0px;
+    padding: 0px;
+}
+
+#heroImg {
+    max-width: 100%;
+}
+
+#heroTextBox {
+    margin-top: 15px;
+    padding-left: 90px;
+}
+
+#heroText,
+#cardText,
+#sectionTitle {
     font-family: 'Montserrat', sans-serif;
+}
+
+.holder {
+    margin: 0px 50px 0px 50px;
+}
+
+#sectionTitle {
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgba(255, 255, 255, 0.288);
+}
+
+#cardImg {
+    margin-top: 25px;
 }
