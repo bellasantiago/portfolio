@@ -2,12 +2,14 @@ body {
     background-image: linear-gradient(to bottom right, #a8fabb, #52e6ee);
 }
 
-.navbar,
-.footer {
+#footer {
     font-family: 'Gruppo', cursive;
     font-weight: bolder;
     letter-spacing: 4px;
     background-color: rgba(255, 255, 255, 0.288);
+    margin-left: 0px;
+    padding: 25px 35px 25px 35px;
+    margin-top: 50px;
 }
 
 .jumbotron {
@@ -31,7 +33,8 @@ body {
 
 #heroText,
 #cardText,
-#sectionTitle {
+#sectionTitle,
+#sectionTitle2 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -39,14 +42,25 @@ body {
     margin: 0px 50px 0px 50px;
 }
 
-#sectionTitle {
+#sectionTitle,
+#sectionTitle2 {
     font-size: 2rem;
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
     background-color: rgba(255, 255, 255, 0.288);
+    margin-top: 2rem;
 }
 
 #cardImg {
     margin-top: 25px;
+}
+
+#sectionTitle2 {
+    margin-top: 1rem;
+}
+
+.contactImg {
+    width: 100px;
+    height: 100px;
 }
